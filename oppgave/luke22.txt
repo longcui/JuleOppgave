@@ -1,0 +1,11 @@
+A palindrome is a word that can be read equally backwards and forwards (see https://en.wikipedia.org/wiki/Palindrome). An example of such a word is agnesisenga.
+Your task is to find the minimum number of operations required to convert a string to a palindrome to the following rules:
+* You can reduce the value of a letter. For example, you can change d to c, but you can not change c to d.
+* To construct a palindrome can reduce the value of the letter repeatedly until the letter is a. Once the letter has been a so it can not be changed
+* Each reducing the value of a character is counted as an operation.
+
+Some examples:
+String abc can be converted into a palindrome with 2 operations: abc -> abb -> aba.
+The string qywo can be converted with four operations: qywo -> pywo -> oywo -> oxwo -> owwo
+
+What is the minimum number of operations needed to convert the string "evdhtiqgfyvcytohqppcmdbultbnzevdbakvkcdpbatbtjlmzaolfqfqjifkoanqcznmbqbeswglgrzfroswgxoritbw" to a palindrome?
